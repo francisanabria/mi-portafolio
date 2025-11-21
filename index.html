@@ -1,0 +1,451 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Portafolio Francella</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+   <!-- HEADER -->
+<header class="header">
+  <div class="header__logo">
+    <span class="header__logo-accent">Dev</span> Francella.
+  </div>
+
+ <nav class="header__nav">
+  <a href="#inicio" class="is-active">Inicio</a>
+  <a href="#sobre-mi">Sobre mí</a>
+  <a href="#certificados">Certificados</a>
+  <a href="#proyectos">Proyectos</a>
+  <a href="#contacto">Contacto</a>
+</nav>
+
+  <div class="header__social">
+
+    <a href="#" class="header__social-btn">
+        <div class="skill-icon top">
+        <img src="fotos/IN.png" alt="LinkedIn">
+        </div>
+    </a>
+    
+
+    <a href="#" class="header__social-btn">
+        <div class="skill-icon top">
+        <img src="fotos/github.png" alt="github">
+        </div>
+    </a>
+
+    <a href="https://wa.me/50660871155" class="header__social-btn"> 
+        <div class="skill-icon top">
+        <img src="fotos/wsp.png" alt="whatsap">
+        </div>
+    </a>
+
+</div>
+
+</header>
+
+  <!-- TEXTO DE PRESENTACIÓN -->
+  <section class="hero" id="inicio">
+    
+    <div class="hero-text">
+      <h4>Hola Mundo, soy Francella</h4>
+      <h1>Ingeniera en Sistemas<br><span>Desarrolladora Web</span></h1>
+      <p>Apasionada por crear soluciones digitales innovadoras y funcionales que impacten positivamente al usuario final.</p>
+
+      <div class="buttons">
+        <a href="#" class="btn-primary">Descargar CV</a>
+        <a href="#" class="btn-outline">Contáctame</a>
+      </div>
+       
+      <div class="hero-social">
+        <a href="#" class="hero-social__icon">
+            <img src="fotos/IN.png" alt="LinkedIn">
+        </a>
+        <a href="#" class="hero-social__icon">
+            <img src="fotos/github.png" alt="GitHub">
+        </a>
+        <a href="https://wa.me/50660871155" class="hero-social__icon">
+            <img src="fotos/wsp.png" alt="WhatsApp">
+        </a>
+        <a href="#" class="hero-social__icon">
+            <img src="fotos/mesenger.png" alt="mesenger">
+        </a>
+    
+      </div>
+
+    </div>
+
+   
+
+    <!-- ÁTOMO -->
+    <div class="hero-atom">
+
+      <!-- Foto central -->
+      <div class="atom-photo">
+        <img src="fotos/perfil4.jpeg" alt="Foto">
+      </div>
+
+      <!-- Aro principal -->
+      <div class="orbit-main"></div>
+
+      <!-- Órbita 1 -->
+<div class="orbit orbit1">
+  <div class="skill-icon top">
+    <img src="fotos/HTML.png" alt="HTML">
+  </div>
+  <div class="skill-icon bottom">
+    <img src="fotos/css.png" alt="CSS">
+  </div>
+</div>
+
+<!-- Órbita 2 -->
+<div class="orbit orbit2">
+  <div class="skill-icon top">
+    <img src="fotos/JS.png" alt="JavaScript">
+  </div>
+  <div class="skill-icon bottom">
+    <img src="fotos/C++.png" alt="C">
+  </div>
+</div>
+
+<!-- Órbita 3 -->
+<div class="orbit orbit3">
+  <div class="skill-icon top">
+    <img src="fotos/GIT.png" alt="Git">
+  </div>
+  <div class="skill-icon bottom">
+    <img src="fotos/bootstrap.png" alt="Bootstrap">
+  </div>
+</div>
+  </section>
+
+  <section id="sobre-mi" class="about">
+  <h2 class="about__title">Sobre Mí</h2>
+
+  <div class="about__cards-row">
+    <article class="about-card">
+      <div class="about-card__header">
+        <span class="about-card__dot"></span>
+       <h3 class="about-title">
+        <img src="fotos/PER.png" class="about-title-icon" alt="">
+        ¿Quién soy?
+        </h3>
+      </div>
+      <p>&nbsp;&nbsp;&nbsp;Soy Ingeniera en Sistemas y Desarrolladora Web, enfocada en crear
+        interfaces claras, modernas y centradas en la experiencia de usuario.</p>
+    </article>
+
+    <article class="about-card">
+      <div class="about-card__header">
+        <span class="about-card__dot"></span>
+      <h3 class="about-title">
+        <img src="fotos/cohete.png" class="about-title-icon" alt="">
+         Mi Objetivo
+      </h3>
+      </div>
+      <p>&nbsp;&nbsp;&nbsp;Seguir creciendo con proyectos reales, aplicando buenas prácticas,
+        trabajo en equipo y aprendiendo tecnologías que estén en demanda.</p>
+    </article>
+
+    <article class="about-card">    
+    <div class="about-card__header">
+        <span class="about-card__dot"></span>
+      <h3 class="about-title">
+        <img src="fotos/huella.png" class="about-title-icon" alt="">
+         Mi Perfil
+      </h3>
+    </div>
+
+      <p>&nbsp;&nbsp;&nbsp;Soy ordenada, detallista y responsable. Me gusta escribir código limpio,
+        documentado y buscar siempre soluciones simples a problemas complejos.</p>
+    </article>
+  </div>
+
+<section class="skills">
+  <h3 class="skills__title">Mis Habilidades Técnicas</h3>
+
+  <div class="skills-carousel-wrapper">
+    <button class="skills-arrow left" id="skillsPrev">&#10094;</button>
+
+    <div class="skills__grid">
+      <div class="skill-card">
+        <div class="skill-card__icon">
+          <img src="fotos/html.png" alt="HTML">
+        </div>
+        <span class="skill-card__name">HTML</span>
+      </div>
+
+      <div class="skill-card">
+        <div class="skill-card__icon">
+          <img src="fotos/css.png" alt="CSS">
+        </div>
+        <span class="skill-card__name">CSS</span>
+      </div>
+
+      <div class="skill-card">
+        <div class="skill-card__icon">
+          <img src="fotos/js.png" alt="JavaScript">
+        </div>
+        <span class="skill-card__name">JavaScript</span>
+      </div>
+      <div class="skill-card">
+        <div class="skill-card__icon">
+          <img src="fotos/python.png" alt="Python">
+        </div>
+        <span class="skill-card__name">Python</span>
+      </div>
+
+      <div class="skill-card">
+        <div class="skill-card__icon">
+          <img src="fotos/GIT.png" alt="Git">
+        </div>
+        <span class="skill-card__name">Git</span>
+      </div>
+
+      <div class="skill-card">
+        <div class="skill-card__icon">
+          <img src="fotos/java.png" alt="Java">
+        </div>
+        <span class="skill-card__name">Java</span>
+      </div>
+      <div class="skill-card">
+        <div class="skill-card__icon">
+          <img src="fotos/bootstrap.png" alt="bootstrap">
+        </div>
+        <span class="skill-card__name">Bootstrap</span>
+      </div>
+
+      <div class="skill-card">
+        <div class="skill-card__icon">
+          <img src="fotos/C++.png" alt="C#">
+        </div>
+        <span class="skill-card__name">C#</span>
+      </div>
+
+      <div class="skill-card">
+        <div class="skill-card__icon">
+          <img src="fotos/js.png" alt="JavaScript">
+        </div>
+        <span class="skill-card__name">JavaScript</span>
+      </div>
+      <div class="skill-card">
+        <div class="skill-card__icon">
+          <img src="fotos/css.png" alt="CSS">
+        </div>
+        <span class="skill-card__name">CSS</span>
+      </div>
+
+      <div class="skill-card">
+        <div class="skill-card__icon">
+          <img src="fotos/js.png" alt="JavaScript">
+        </div>
+        <span class="skill-card__name">JavaScript</span>
+      </div>
+
+
+      <!-- añade aquí más bloques .skill-card si quieres -->
+    </div>
+
+    <button class="skills-arrow right" id="skillsNext">&#10095;</button>
+  </div>
+</section>
+</section>
+
+<section id="certificados" class="certs">
+  <h2 class="certs__title">Certificados</h2>
+
+  <div class="certs__grid">
+
+    <!-- CARD 1 -->
+    <article class="cert-card">
+      <div class="cert-card__img">
+        <img src="fotos/b1.png.jpeg" alt="Certificado 1">
+      </div>
+
+      <div class="cert-card__content">
+        <h3 class="cert-card__name">Ingles B1+</h3>
+        <p class="cert-card__issuer">EduTech · 1 año 5 meses</p>
+        <a href="#" target="_blank" class="cert-card__link">Ver Certificado</a>
+      </div>
+    </article>
+
+    <!-- CARD 2 -->
+    <article class="cert-card">
+      <div class="cert-card__img">
+        <img src="fotos/python_cert.png" alt="Certificado 2">
+      </div>
+
+      <div class="cert-card__content">
+        <h3 class="cert-card__name">Python Essentials 1</h3>
+        <p class="cert-card__issuer">Cisco · 30 horas</p>
+        <a href="#" target="_blank" class="cert-card__link">Ver Certificado</a>
+      </div>
+    </article>
+
+    <!-- CARD 3 -->
+    <article class="cert-card">
+      <div class="cert-card__img">
+        <img src="fotos/ciberseguridad_cert.PNG" alt="Certificado 3">
+      </div>
+
+      <div class="cert-card__content">
+        <h3 class="cert-card__name">Introduccion a la Ciberseguridad</h3>
+        <p class="cert-card__issuer">Cisco · 6 horas</p>
+        <a href="#" target="_blank" class="cert-card__link">Ver Certificado</a>
+      </div>
+    </article>
+
+  </div>
+</section>
+
+<!--SECCION DE PROYECTOS-->
+<section id="proyectos" class="projects">
+  <h2 class="projects__title">Proyectos</h2>
+
+  <div class="projects__grid">
+
+    <!-- CARD 1 -->
+    <article class="project-card">
+      <img src="fotos/portafolio.png" class="project-card__img" alt="Proyecto 1">
+      <div class="project-card__body">
+        <h3 class="project-card__title">Pagina Web Personal</h3>
+        <p class="project-card__desc">
+        Mi portafolio profesional responsive, mostrando mis tecnologías y experiencia en desarrollo web.  
+        </p>
+        <span class="project-card__tech">HTML · CSS · JavaScript </span>
+      </div>
+    </article>
+
+    <!-- CARD 2 -->
+    <article class="project-card">
+      <img src="fotos/portafolio.png" class="project-card__img" alt="Proyecto 2">
+      <div class="project-card__body">
+        <h3 class="project-card__title">Página Web Personal</h3>
+        <p class="project-card__desc">
+          Mi portafolio profesional responsive, mostrando mis tecnologías y experiencia en desarrollo web.
+        </p>
+        <span class="project-card__tech">HTML · CSS · JavaScript</span>
+      </div>
+    </article>
+
+    <!-- CARD 3 -->
+    <article class="project-card">
+      <img src="fotos/portafolio.png" class="project-card__img" alt="Proyecto 3">
+      <div class="project-card__body">
+        <h3 class="project-card__title">Página Web Mueblería Cabañas</h3>
+        <p class="project-card__desc">
+          Plataforma para mostrar productos con contacto directo vía WhatsApp, diseño moderno y accesible.
+        </p>
+        <span class="project-card__tech">HTML · CSS · JavaScript · Bootstrap · MySQL</span>
+      </div>
+    </article>
+
+    <!-- CARD 4 -->
+    <article class="project-card">
+      <img src="fotos/portafolio.png" class="project-card__img" alt="Proyecto 4">
+      <div class="project-card__body">
+        <h3 class="project-card__title">Desarrollo de Microservicios y Frontend</h3>
+        <p class="project-card__desc">
+          Implementación de API REST, CRUD completo y panel administrador desde cero.  
+        </p>
+        <span class="project-card__tech">HTML · Bootstrap · Java · Spring Boot</span>
+      </div>
+    </article>
+
+  </div>
+</section>
+
+ <!-- CONTACTO -->
+<section id="contacto" class="contact">
+  <div class="contact__container">
+
+    <!-- IZQUIERDA: TEXTO + REDES -->
+    <div class="contact__info">
+      <h2 class="contact__title">Trabajemos Juntos</h2>
+      <p class="contact__text">
+        Estoy interesada en oportunidades para colaborar en proyectos
+        innovadores y desafiantes. Si tienes alguna propuesta, pregunta o
+        simplemente quieres saludar, no dudes en contactarme a través del
+        formulario o por mis redes sociales.
+      </p>
+
+      <div class="contact__socials">
+        <a href="https://www.linkedin.com" target="_blank" class="contact__social-btn">
+          <img src="fotos/in.png" alt="LinkedIn">
+        </a>
+        <a href="https://www.instagram.com" target="_blank" class="contact__social-btn">
+          <img src="fotos/insta.png" alt="Instagram">
+        </a>
+        <a href="https://wa.me/506XXXXXXXX" target="_blank" class="contact__social-btn">
+          <img src="fotos/wsp.png" alt="WhatsApp">
+        </a>
+        <a href="https://facebook.com" target="_blank" class="contact__social-btn">
+          <img src="fotos/messenger.png" alt="Facebook">
+        </a>
+      </div>
+    </div>
+
+    <!-- DERECHA: FORMULARIO / MENSAJE ENVIADO -->
+    <div class="contact__form-wrapper">
+      <form class="contact__form"
+            action="https://formsubmit.co/francellasanabriagomez@gmail.com"
+            method="POST">
+
+        <!-- ajustes de FormSubmit -->
+        <input type="hidden" name="_captcha" value="false">
+        <input type="hidden" name="_template" value="box">
+        <!-- cuando subas el sitio, cambia esta URL por tu dominio real -->
+        <input type="hidden" name="_next" value="https://tu-dominio.com/#contacto">
+
+        <label class="contact__label">Nombre completo</label>
+        <input class="contact__input" type="text" name="nombre" required>
+
+        <label class="contact__label">Correo electrónico</label>
+        <input class="contact__input" type="email" name="email" required>
+
+        <label class="contact__label">Tu mensaje</label>
+        <textarea class="contact__textarea" name="mensaje" rows="4" required></textarea>
+
+        <button type="submit" class="contact__btn">Enviar mensaje</button>
+      </form>
+
+      <!-- TARJETA DE ÉXITO -->
+      <div class="contact__success" id="contactSuccess">
+        <div class="contact__success-icon">✔</div>
+        <h3 class="contact__success-title">¡Mensaje Enviado!</h3>
+        <p class="contact__success-text">
+          Gracias por contactarme, te responderé lo antes posible.
+        </p>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+
+<!-- ===== FOOTER ===== -->
+<footer class="footer">
+  <div class="footer__social">
+    <a href="#"><img src="fotos/in.png" alt="LinkedIn"></a>
+    <a href="#"><img src="fotos/mesenger.png" alt="mesenger"></a>
+    <a href="#"><img src="fotos/github.png" alt="GitHub"></a>
+    <a href="https://wa.me/50660871155"><img src="fotos/wsp.png" alt="WhatsApp"></a>
+    
+  </div>
+
+  <nav class="footer__menu">
+    <a href="#inicio">Inicio</a>
+    <a href="#sobre-mi">Sobre mí</a>
+    <a href="#proyectos">Proyectos</a>
+    <a href="#contacto">Contacto</a>
+  </nav>
+
+  <p class="footer__copy">
+    © 2025 Francella — Todos los derechos reservados.
+  </p>
+</footer>
+ <script src="script.js"></script>
+</body>
+</html>
