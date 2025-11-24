@@ -1012,5 +1012,76 @@ body {
     margin-left: 0;
   }
 
+/* ===== MOBILE (pantallas chicas) ===== */
+@media (max-width: 768px) {
+
+  /* header y espacios generales */
+  .header {
+    padding: 14px 6%;
+  }
+
+  /* hero en columna */
+  .hero {
+    flex-direction: column;
+    text-align: center;
+    gap: 40px;
+    padding: 110px 6% 60px;
+  }
+
+  .hero-atom {
+    margin-left: 0;
+    width: min(320px, 80vw);
+  }
+
+  /* sobre mí: tarjetas una debajo de otra */
+  .about {
+    padding: 60px 6%;
+  }
+
+  .about__cards-row {
+    grid-template-columns: 1fr;
+    gap: 18px;
+  }
+
+  /* habilidades: que no quede tan ancho */
+  .skills {
+    max-width: 100%;
+    margin: 30px 6% 0;
+    padding: 20px 16px;
+  }
+
+  /* certificados: usa tu grid de certificados aquí */
+  .certs__grid {
+    grid-template-columns: 1fr;
+    gap: 18px;
+  }
+
+  /* proyectos: 1 columna */
+  .projects {
+    padding: 60px 6% 40px;
+  }
+
+  .projects__grid {
+    grid-template-columns: 1fr;
+    gap: 18px;
+  }
+
+  /* contacto: texto arriba, formulario abajo y centrado */
+  .contact {
+    padding: 50px 6% 70px;
+  }
+
+  .contact__container {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+  }
+
+  .contact__form {
+    max-width: 500px;
+    width: 100%;
+    margin: 0 auto;
+  }
+}
   
 }
