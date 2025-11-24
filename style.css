@@ -931,7 +931,59 @@ body {
     gap: 40px;
   }
 }
+/* === CONTACTO RESPONSIVE FIX === */
 
+@media (max-width: 900px) {
+
+  .contact {
+    padding: 60px 6% 60px;
+  }
+
+  .contact__container {
+    grid-template-columns: 1fr;
+    gap: 30px;
+  }
+
+  /* Texto izquierdo centrado en móvil */
+  .contact__info {
+    text-align: center;
+  }
+
+  .contact__text {
+    margin: 0 auto 20px;
+  }
+
+  .contact__socials {
+    justify-content: center;
+  }
+
+  /* FORMULARIO más grande */
+  .contact__form,
+  .contact__success {
+    max-width: 100%;      /* 👈 ahora ocupa toda la pantalla */
+    padding: 30px 25px;    /* 👈 reduce padding para no hacerlo pequeño */
+    border-radius: 25px;
+  }
+
+  /* Inputs al 100% */
+  .contact__input,
+  .contact__textarea {
+    width: 100%;
+    font-size: 14px;
+    padding: 12px;
+  }
+
+  .contact__textarea {
+    height: 150px;
+  }
+
+  /* Botón más grande */
+  .contact__btn {
+    width: 100%;
+    padding: 14px 0;
+    font-size: 15px;
+  }
+}
 /* ===== FOOTER ===== */
 
 .footer {
