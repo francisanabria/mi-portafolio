@@ -49,3 +49,15 @@ if (skillsGrid && btnPrev && btnNext) {
 
 }
 
+(function () {
+  const params = new URLSearchParams(window.location.search);
+  if (!params.has('sent')) return;
+
+  const successBox = document.getElementById('contact-success');
+  const form = document.getElementById('contact-form');
+
+  if (successBox && form) {
+    form.style.display = 'none';
+    successBox.classList.add('contact__success--visible');
+  }
+})();

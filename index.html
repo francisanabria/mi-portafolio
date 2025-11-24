@@ -388,41 +388,34 @@
     </div>
 
     <!-- DERECHA: FORMULARIO / MENSAJE ENVIADO -->
-    <div class="contact__form-wrapper">
-      <form class="contact__form"
-            action="https://formsubmit.co/francellasanabriagomez@gmail.com"
-            method="POST">
+    <form 
+  class="contact__form"
+  id="contact-form"
+  action="https://formsubmit.co/francellasanabriagomez@gmail.com"
+  method="POST"
+>
+  <!-- ajustes de FormSubmit -->
+  <input type="hidden" name="_captcha" value="false">
+  <input type="hidden" name="_template" value="box">
+  <input type="hidden" name="_next" value="https://francella-dev.netlify.app/#contacto?sent=1">
 
-        <!-- ajustes de FormSubmit -->
-        <input type="hidden" name="_captcha" value="false">
-        <input type="hidden" name="_template" value="box">
-        <!-- cuando subas el sitio, cambia esta URL por tu dominio real -->
-        <input type="hidden" name="_next" value="https://francella-dev.netlify.app/">
+  <!-- tus campos -->
+  <label class="contact__label">Nombre completo</label>
+  <input class="contact__input" type="text" name="nombre" required>
 
-        <label class="contact__label">Nombre completo</label>
-        <input class="contact__input" type="text" name="nombre" required>
+  <label class="contact__label">Correo electrónico</label>
+  <input class="contact__input" type="email" name="email" required>
 
-        <label class="contact__label">Correo electrónico</label>
-        <input class="contact__input" type="email" name="email" required>
+  <label class="contact__label">Tu mensaje</label>
+  <textarea class="contact__textarea" name="mensaje" rows="4" required></textarea>
 
-        <label class="contact__label">Tu mensaje</label>
-        <textarea class="contact__textarea" name="mensaje" rows="4" required></textarea>
+  <button type="submit" class="contact__btn">Enviar mensaje</button>
+</form>
 
-        <button type="submit" class="contact__btn">Enviar mensaje</button>
-      </form>
-
-      <!-- TARJETA DE ÉXITO -->
-      <div class="contact__success" id="contactSuccess">
-        <div class="contact__success-icon">✔</div>
-        <h3 class="contact__success-title">¡Mensaje Enviado!</h3>
-        <p class="contact__success-text">
-          Gracias por contactarme, te responderé lo antes posible.
-        </p>
-      </div>
-    </div>
-
-  </div>
-</section>
+<div class="contact__success" id="contact-success">
+  <h3>¡Mensaje enviado!</h3>
+  <p>Gracias por contactarme, te responderé lo antes posible.</p>
+</div>
 
 
 <!-- ===== FOOTER ===== -->
