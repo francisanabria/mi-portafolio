@@ -1012,5 +1012,39 @@ body {
     margin-left: 0;
   }
   
+  /* 📱 Ajustes para móvil */
+@media (max-width: 768px) {
+
+  .contact__container {
+    flex-direction: column;      /* En vez de dos columnas → una sola */
+    align-items: center;
+    gap: 2rem;
+  }
+
+  .contact__info {
+    width: 100%;
+    text-align: left;
+  }
+
+  .contact__form {
+    width: 100%;
+    max-width: 400px;            /* ✔️ Mucho más grande */
+  }
+
+  .contact__form form {
+    width: 100%;
+  }
+
+  .contact__form input,
+  .contact__form textarea {
+    width: 100%;                 /* ✔️ Que ocupen toda la tarjeta */
+    font-size: 1rem;
+  }
+
+  .contact__form button {
+    width: 100%;
+    font-size: 1rem;
+  }
+}
 
 }
